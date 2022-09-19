@@ -6,7 +6,6 @@ export function alpaca(): Object;
 export function bird(): Object;
 
 export function apiVersion(): Object;
-
 export function cdn(): Object;
 
 export const version: string;

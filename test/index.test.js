@@ -2,33 +2,33 @@ const random = require('../');
 const { version } = require('../package.json');
 
 test('Random cats', async () => {
-	const cat = await random.cat();
-	expect(cat.data.success).toBe(true);
+	const res = await random.cat();
+	expect(res.data.success).toBe(true);
 });
 
 test('Random dogs', async () => {
-	const cat = await random.dog();
-	expect(cat.data.success).toBe(true);
+	const res = await random.dog();
+	expect(res.data.success).toBe(true);
 });
 
 test('Random foxes', async () => {
-	const cat = await random.fox();
-	expect(cat.data.success).toBe(true);
+	const res = await random.fox();
+	expect(res.data.success).toBe(true);
 });
 
 test('Random fishes', async () => {
-	const cat = await random.fish();
-	expect(cat.data.success).toBe(true);
+	const res = await random.fish();
+	expect(res.data.success).toBe(true);
 });
 
 test('Random alpacas', async () => {
-	const cat = await random.alpaca();
-	expect(cat.data.success).toBe(true);
+	const res = await random.alpaca();
+	expect(res.data.success).toBe(true);
 });
 
 test('Random birds', async () => {
-	const cat = await random.bird();
-	expect(cat.data.success).toBe(true);
+	const res = await random.bird();
+	expect(res.data.success).toBe(true);
 });
 
 

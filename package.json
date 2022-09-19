@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest test/index.test.js",
+    "promise-test": "jest test/promise.test.js",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
