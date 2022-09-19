@@ -1,5 +1,5 @@
 {
-  "name": "random-animals",
+  "name": "@sefinek/random-animals",
   "version": "1.0.0",
   "description": "This package returns random images of animals (cats, foxes etc.) from SkiffyBOT API.",
   "main": "index.js",
