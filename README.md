@@ -25,7 +25,7 @@ const random = require('@sefinek/random-animals');
 random.fox().then(res => console.log(res.data.message));
 ```
 
-## 😻 • Available functions
+## 😻 » Available functions
 | Name                                                                                                                           | Usage                   | Description                                    |
 |--------------------------------------------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------|
 | [cat](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L4)         | `<random>.cat()`        | Return random cats                             |
@@ -40,7 +40,7 @@ random.fox().then(res => console.log(res.data.message));
 | [cdn](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L45)        | `<random>.cdn()`        | Get data from [CDN](https://cdn.skiffybot.xyz) |
 
 
-## 📃 Returned object
+## 📃 » Returned object
 ```json
 {
   "success": true,
