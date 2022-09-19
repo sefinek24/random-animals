@@ -26,18 +26,18 @@ random.fox().then(res => console.log(res.data.message));
 ```
 
 ## 😻 • Available functions
-| Function                                                                                                          | Usage                   | Description                   |
-|-------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------------|
-| [cat](https://github.com/sefinek24/random-animals/blob/908d3449456a20874befd24fbc1b13fe0e46838a/test/index.test.js#L4)         | `<random>.cat()`        | Return random cats            |
-| [dog](https://github.com/sefinek24/random-animals/blob/908d3449456a20874befd24fbc1b13fe0e46838a/test/index.test.js#L9)         | `<random>.dog()`        | Return random dogs            |
-| [fox](https://github.com/sefinek24/random-animals/blob/908d3449456a20874befd24fbc1b13fe0e46838a/test/index.test.js#L14)        | `<random>.fox()`        | Return random foxes           |
-| [fish](https://github.com/sefinek24/random-animals/blob/908d3449456a20874befd24fbc1b13fe0e46838a/test/index.test.js#L19)       | `<random>.fish()`       | Return random fishes          |
-| [alpaca](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)     | `<random>.alpaca()`     | Return random alpacas         |
-| [bird](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)       | `<random>.bird()`       | Return random bird            |
-|                                                                                                                   |                         |                               |
-| [version](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)    | `<random>.version()`    | Return version of this module |
-| [apiVersion](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22) | `<random>.apiVersion()` | Return API version            |
-| [cdn](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)        | `<random>.cdn()`        | CDN data                      |
+| Name                                                                                                                           | Usage                   | Description                                    |
+|--------------------------------------------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------|
+| [cat](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L4)         | `<random>.cat()`        | Return random cats                             |
+| [dog](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L9)         | `<random>.dog()`        | Return random dogs                             |
+| [fox](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L14)        | `<random>.fox()`        | Return random foxes                            |
+| [fish](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L19)       | `<random>.fish()`       | Return random fishes                           |
+| [alpaca](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L24)     | `<random>.alpaca()`     | Return random alpacas                          |
+| [bird](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L29)       | `<random>.bird()`       | Return random bird                             |
+|                                                                                                                                |                         |                                                |
+| [version](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L35)    | `<random>.version()`    | Return version of this module                  |
+| [apiVersion](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L39) | `<random>.apiVersion()` | Return API version                             |
+| [cdn](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L45)        | `<random>.cdn()`        | Get data from [CDN](https://cdn.skiffybot.xyz) |
 
 
 ## 📃 Returned object
