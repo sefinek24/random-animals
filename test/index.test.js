@@ -21,10 +21,16 @@ test('Random fishes', async () => {
 	expect(cat.data.success).toBe(true);
 });
 
+test('Random alpacas', async () => {
+	const cat = await random.alpaca();
+	expect(cat.data.success).toBe(true);
+});
+
 test('Random birds', async () => {
 	const cat = await random.bird();
 	expect(cat.data.success).toBe(true);
 });
+
 
 test('Get module version', () => {
 	expect(random.version).toBe(version);
@@ -34,6 +40,7 @@ test('Get API version', async () => {
 	const res = await random.apiVersion();
 	expect(typeof res.data.version).toBe('string');
 });
+
 
 test('CDN request', async () => {
 	const res = await random.cdn();
