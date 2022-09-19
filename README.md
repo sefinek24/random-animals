@@ -1,6 +1,6 @@
 <div align="center">
     <h1>😽 » What is that? « 🦊</h1>
-    <p>This package for npm returns random images of animals (cats, foxes etc.) from the <a href="https://api.skiffybot.xyz" target="_blank">API</a>.</p>
+    <p>This package for npm returns random images of animals (cats, foxes etc.) from <a href="https://api.skiffybot.xyz" target="_blank">API</a>.</p>
     <img src="https://cdn.skiffybot.xyz/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
 </div>
 

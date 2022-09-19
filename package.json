@@ -1,7 +1,7 @@
 {
   "name": "random-animals",
   "version": "1.0.0",
-  "description": "This package returns a random cats image, foxes etc. from SkiffyBOT API.",
+  "description": "This package returns random images of animals (cats, foxes etc.) from SkiffyBOT API.",
   "main": "index.js",
   "scripts": {
     "test": "jest test/index.test.js",
