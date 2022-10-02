@@ -1,7 +1,7 @@
 <div align="center">
     <h1>😽 » What is that? « 🦊</h1>
-    <p>This package for npm returns random images of animals (cats, foxes etc.) from <a href="https://api.skiffybot.xyz" target="_blank">API</a>.</p>
-    <img src="https://cdn.skiffybot.xyz/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
+    <p>This package for npm returns random images of animals (cats, foxes etc.) from <a href="https://api-skiffy.sefinek.fun" target="_blank">API</a>.</p>
+    <img src="https://cdn-skiffy.sefinek.fun/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
 </div>
 
 ## 📥 » Installation
@@ -37,7 +37,7 @@ random.fox().then(res => console.log(res.data.message));
 |                                                                                                                                |                         |                                                |
 | [version](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L35)    | `<random>.version()`    | Return version of this module                  |
 | [apiVersion](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L39) | `<random>.apiVersion()` | Return API version                             |
-| [cdn](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L45)        | `<random>.cdn()`        | Get data from [CDN](https://cdn.skiffybot.xyz) |
+| [cdn](https://github.com/sefinek24/random-animals/blob/b90861890135165e6a53a48fd918fd97d043dde9/test/index.test.js#L45)        | `<random>.cdn()`        | Get data from [CDN](https://cdn-skiffy.sefinek.fun) |
 
 
 ## 📃 » Returned object
@@ -47,7 +47,7 @@ random.fox().then(res => console.log(res.data.message));
   "status": 200,
   "category": "animals",
   "endpoint": "cat",
-  "message": "https://cdn.skiffybot.xyz/images/animals/cat/neva-masquerade-cats-1375033-min.jpg"
+  "message": "https://cdn-skiffy.sefinek.fun/images/animals/cat/neva-masquerade-cats-1375033-min.jpg"
 }
 ```
 
