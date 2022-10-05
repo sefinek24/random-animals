@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/sefinek24/random-animals#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^29.1.2"
