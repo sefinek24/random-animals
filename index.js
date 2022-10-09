@@ -5,7 +5,7 @@ const header = { headers: { 'User-Agent': `random-animals/${version} (https://gi
 
 const getData = async endpoint => {
 	try {
-		return await get(`https://api-skiffy.sefinek.fun/api/v1/animals/${endpoint}`, header);
+		return await get(`https://api.sefinek.net/api/v1/animals/${endpoint}`, header);
 	} catch (err) {
 		throw new Error(err.message);
 	}
@@ -18,7 +18,7 @@ module.exports = {
 	fish: () => getData('fish'),
 	alpaca: () => getData('alpaca'),
 	bird: () => getData('bird'),
-	apiVersion: () => get('https://api-skiffy.sefinek.fun/api', header),
-	cdn: () => get('https://cdn-skiffy.sefinek.fun', header),
+	apiVersion: () => get('https://api.sefinek.net/api', header),
+	cdn: () => get('https://cdn.sefinek.net', header),
 	version,
 };
