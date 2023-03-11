@@ -5,7 +5,7 @@ const header = { headers: { 'User-Agent': `random-animals/${version} (https://gi
 
 const getData = async endpoint => {
 	try {
-		return await get(`https://api.sefinek.net/api/v1/animals/${endpoint}`, header);
+		return await get(`https://api.sefinek.net/api/v2/random/animal/${endpoint}`, header);
 	} catch (err) {
 		throw new Error(err.message);
 	}
