@@ -1,7 +1,7 @@
 {
   "name": "@sefinek/random-animals",
-  "version": "1.0.4",
-  "description": "This package returns random images of animals (cats, foxes etc.) from SkiffyBOT API.",
+  "version": "1.0.5",
+  "description": "This package returns random images of animals (cats, foxes etc.) from Sefinek API.",
   "main": "index.js",
   "scripts": {
     "test": "jest test/index.test.js",
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/sefinek24/random-animals#readme",
   "dependencies": {
-    "axios": "^1.3.4"
+    "axios": "^1.4.0"
   },
   "devDependencies": {
     "jest": "^29.5.0"
