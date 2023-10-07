@@ -1,11 +1,10 @@
 {
   "name": "@sefinek/random-animals",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "This package returns random images of animals (cats, foxes etc.) from Sefinek API.",
   "main": "index.js",
   "scripts": {
-    "test": "jest test/index.test.js",
-    "promise-test": "jest test/promise.test.js",
+    "test": "jest test",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
@@ -38,11 +37,8 @@
     "url": "https://github.com/sefinek24/random-animals/issues"
   },
   "homepage": "https://github.com/sefinek24/random-animals#readme",
-  "dependencies": {
-    "axios": "^1.4.0"
-  },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.7.0"
   },
   "types": "./index.d.ts"
 }
