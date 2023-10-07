@@ -1,11 +1,13 @@
 <div align="center">
     <h1>😽 » What is that? « 🦊</h1>
-    <p>This package for npm returns random images of animals (cats, foxes etc.) from <a href="https://api.sefinek.net" target="_blank">API</a>.</p>
+    <p>This package for npm returns random images of animals (cats, foxes etc.) from the official <a href="https://api.sefinek.net" target="_blank">API</a>.</p>
     <img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
 </div>
 
 ## 📥 » Installation
-> **$** npm install @sefinek/random-animals
+```bash
+npm install @sefinek/random-animals
+```
 
 ## 🐈 » Usage
 ### • Async/await example
