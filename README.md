@@ -4,7 +4,7 @@
     <img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
 </div>
 
-[![The number of downloads](https://img.shields.io/npm/dt/@sefinek/random-animals?maxAge=3600)](https://www.npmjs.com/package/random-animals)
+[![The number of downloads](https://img.shields.io/npm/dt/@sefinek/random-animals?maxAge=3600)](https://www.npmjs.com/package/@sefinek/random-animals)
 [![Last commit](https://img.shields.io/github/last-commit/sefinek24/random-animals)](https://github.com/sefinek24/random-animals)
 [![Issues](https://img.shields.io/github/issues/sefinek24/random-animals)](https://github.com/sefinek24/random-animals)
 [![Commit activity](https://img.shields.io/github/commit-activity/w/sefinek24/random-animals)](https://github.com/sefinek24/random-animals)
