@@ -2,7 +2,6 @@ const https = require('node:https');
 const { name, version } = require('./package.json');
 
 const API_URL = 'https://api.sefinek.net';
-const API_RELEASE = 'v2';
 const options = {
 	headers: {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals)`,
@@ -51,7 +50,7 @@ const makeRequest = url => {
 };
 
 const getData = async endpoint => {
-	const url = `${API_URL}/api/${API_RELEASE}/random/animal/${endpoint}`;
+	const url = `${API_URL}/api/v2/random/animal/${endpoint}`;
 	return makeRequest(url);
 };
 
