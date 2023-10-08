@@ -1,5 +1,5 @@
-declare module 'random-animals' {
-    export interface RandomAnimalResponse {
+declare module '@sefinek/random-animals' {
+    interface AnimalApiResponse {
         success: boolean;
         status: number;
         info: {
@@ -9,50 +9,14 @@ declare module 'random-animals' {
         message: string;
     }
 
-    export interface ApiVersionResponse {
-        success: boolean;
-        status: number;
-        version: string;
-        available: number[];
-    }
+    export const cat: () => Promise<AnimalApiResponse>;
+    export const dog: () => Promise<AnimalApiResponse>;
+    export const fox: () => Promise<AnimalApiResponse>;
+    export const fish: () => Promise<AnimalApiResponse>;
+    export const alpaca: () => Promise<AnimalApiResponse>;
+    export const bird: () => Promise<AnimalApiResponse>;
 
-    export interface CdnVersionResponse {
-        success: boolean;
-        status: number;
-        message: string;
-        version: string;
-        worker: number;
-        contact: string;
-        domain: {
-            main: string;
-            api: string;
-            cdn: string;
-        };
-        path: {
-            static: string;
-            gitResources: string;
-            images: string;
-            temp: string;
-        };
-        other: {
-            ssl: boolean;
-            proxy: boolean;
-        };
-    }
-
-    export interface RandomAnimals {
-        cat: () => Promise<RandomAnimalResponse>;
-        dog: () => Promise<RandomAnimalResponse>;
-        fox: () => Promise<RandomAnimalResponse>;
-        fish: () => Promise<RandomAnimalResponse>;
-        alpaca: () => Promise<RandomAnimalResponse>;
-        bird: () => Promise<RandomAnimalResponse>;
-        apiVersion: () => Promise<ApiVersionResponse>;
-        cdnVersion: () => Promise<CdnVersionResponse>;
-    }
-
-    const randomAnimals: RandomAnimals;
+    export const apiVersion: () => Promise<string>;
+    export const cdnVersion: () => Promise<string>;
     export const version: string;
-
-    export default randomAnimals;
 }
