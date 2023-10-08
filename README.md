@@ -1,6 +1,4 @@
-<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="280px" align="left">
-
-
+<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="274px" align="left">
 <div align="center">
     <h1>
         » About this package «<br>
