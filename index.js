@@ -11,6 +11,7 @@ const options = {
 		'CF-IPCountry': 'false',
 		'CF-Visitor': '{"scheme":"https"}',
 		'Connection': 'keep-alive',
+		'DNT': '1',
 		'Pragma': 'no-cache',
 		'Referrer-Policy': 'strict-origin-when-cross-origin',
 		'X-Content-Type-Options': 'nosniff',
