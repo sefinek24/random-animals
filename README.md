@@ -2,7 +2,10 @@
 
 
 <div align="center">
-    <h1>😽 » About this package « 🦊</h1>
+    <h1>
+        » About this package «<br>
+        😽 🦊
+    </h1>
     <p>This package for npm returns random images of animals (cats, dogs, foxes etc.) from the official <a href="https://api.sefinek.net" target="_blank">API</a>.</p>
     <a href="https://www.npmjs.com/package/@sefinek/random-animals">
         <img src="https://img.shields.io/npm/dt/@sefinek/random-animals?maxAge=3600" alt="The number of downloads">
