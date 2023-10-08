@@ -2,43 +2,43 @@
   "name": "@sefinek/random-animals",
   "version": "2.0.0",
   "description": "This package returns random images of animals (cats, foxes etc.) from Sefinek API.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest test",
-    "up": "ncu -u && npm install && npm update && npm audit fix"
+  "keywords": [
+    "alpaca",
+    "alpacas",
+    "animals-api",
+    "api",
+    "bird",
+    "birds",
+    "cat",
+    "cats",
+    "dog",
+    "dogs",
+    "fish",
+    "fishes",
+    "fox",
+    "foxes",
+    "image",
+    "images",
+    "random",
+    "random-animals"
+  ],
+  "homepage": "https://github.com/sefinek24/random-animals#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek24/random-animals/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sefinek24/random-animals.git"
   },
-  "keywords": [
-    "random",
-    "cat",
-    "cats",
-    "dog",
-    "dogs",
-    "fox",
-    "foxes",
-    "fish",
-    "fishes",
-    "alpaca",
-    "alpacas",
-    "bird",
-    "birds",
-    "image",
-    "images",
-    "skiffy",
-    "bot",
-    "api"
-  ],
-  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sefinek24/random-animals/issues"
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "jest test",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
   },
-  "homepage": "https://github.com/sefinek24/random-animals#readme",
   "devDependencies": {
     "jest": "^29.7.0"
-  },
-  "types": "./index.d.ts"
+  }
 }
