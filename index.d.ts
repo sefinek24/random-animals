@@ -41,17 +41,18 @@ declare module 'random-animals' {
     }
 
     export interface RandomAnimals {
-        cat(): Promise<RandomAnimalResponse>;
-        dog(): Promise<RandomAnimalResponse>;
-        fox(): Promise<RandomAnimalResponse>;
-        fish(): Promise<RandomAnimalResponse>;
-        alpaca(): Promise<RandomAnimalResponse>;
-        bird(): Promise<RandomAnimalResponse>;
-        apiVersion(): Promise<ApiVersionResponse>;
-        cdnVersion(): Promise<CdnVersionResponse>;
+        cat: () => Promise<RandomAnimalResponse>;
+        dog: () => Promise<RandomAnimalResponse>;
+        fox: () => Promise<RandomAnimalResponse>;
+        fish: () => Promise<RandomAnimalResponse>;
+        alpaca: () => Promise<RandomAnimalResponse>;
+        bird: () => Promise<RandomAnimalResponse>;
+        apiVersion: () => Promise<ApiVersionResponse>;
+        cdnVersion: () => Promise<CdnVersionResponse>;
     }
 
     const randomAnimals: RandomAnimals;
+    export const version: string;
 
     export default randomAnimals;
 }
