@@ -1,4 +1,3 @@
-// Import required modules
 const https = require('node:https');
 const { name, version } = require('./package.json');
 
@@ -11,10 +10,10 @@ const options = {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals)`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
-		'CF-IPCountry': 'false',
-		'CF-Visitor': '{"scheme":"https"}',
+		'CF-IPCountry': 'false', // Disable Cloudflare IP Geolocation
+		'CF-Visitor': '{"scheme":"https"}', // Set the scheme to HTTPS for Cloudflare
 		'Connection': 'keep-alive',
-		'DNT': '1',
+		'DNT': '1', // Enable "Do Not Track"
 		'Pragma': 'no-cache',
 		'Referrer-Policy': 'strict-origin-when-cross-origin',
 		'X-Content-Type-Options': 'nosniff',
@@ -105,7 +104,6 @@ module.exports = {
 	 * @returns {Promise} - A promise that resolves with random bird data or rejects with an error.
 	 */
 	bird: () => getData('bird'),
-
 
 	/**
 	 * Get the API version from the external API.
