@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>😽 » What is that? « 🦊</h1>
-    <p>This package for npm returns random images of animals (cats, foxes etc.) from the official <a href="https://api.sefinek.net" target="_blank">API</a>.</p>
+    <h1>😽 » About this package « 🦊</h1>
+    <p>This package for npm returns random images of animals (cats, dogs, foxes etc.) from the official <a href="https://api.sefinek.net" target="_blank">API</a>.</p>
     <img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
 </div>
 
@@ -15,8 +15,8 @@ npm install @sefinek/random-animals
 const random = require('@sefinek/random-animals');
 
 (async () => {
-    const res = await random.cat();
-    console.log(res.message);
+    const data = await random.cat();
+    console.log(data.message);
 })();
 ```
 
@@ -24,7 +24,7 @@ const random = require('@sefinek/random-animals');
 ```js
 const random = require('@sefinek/random-animals');
 
-random.fox().then(res => console.log(res.message));
+random.fox().then(data => console.log(data.message));
 ```
 
 ## 😻 » Available functions
@@ -47,8 +47,7 @@ random.fox().then(res => console.log(res.message));
 {
   "success": true,
   "status": 200,
-  "category": "animals",
-  "endpoint": "cat",
+  "info": { "category": "animals", "endpoint": "cat" },
   "message": "https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg"
 }
 ```
