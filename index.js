@@ -10,10 +10,10 @@ const options = {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals)`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
-		'CF-IPCountry': 'false', // Disable Cloudflare IP Geolocation
-		'CF-Visitor': '{"scheme":"https"}', // Set the scheme to HTTPS for Cloudflare
+		'CF-IPCountry': 'false', // Disabling Cloudflare IP Geolocation
+		'CF-Visitor': '{"scheme":"https"}', // Setting the scheme to HTTPS for Cloudflare
 		'Connection': 'keep-alive',
-		'DNT': '1', // Enable "Do Not Track"
+		'DNT': '1', // Enabling "Do Not Track"
 		'Pragma': 'no-cache',
 		'Referrer-Policy': 'strict-origin-when-cross-origin',
 		'X-Content-Type-Options': 'nosniff',
