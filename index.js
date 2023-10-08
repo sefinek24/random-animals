@@ -6,15 +6,16 @@ const API_RELEASE = 'v2';
 const options = {
 	headers: {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals)`,
+		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
-		'Pragma': 'no-cache',
-		'Connection': 'keep-alive',
 		'CF-IPCountry': 'false',
 		'CF-Visitor': '{"scheme":"https"}',
-		'X-XSS-Protection': '1; mode=block',
-		'X-Frame-Options': 'DENY',
-		'X-Content-Type-Options': 'nosniff',
+		'Connection': 'keep-alive',
+		'Pragma': 'no-cache',
 		'Referrer-Policy': 'strict-origin-when-cross-origin',
+		'X-Content-Type-Options': 'nosniff',
+		'X-Frame-Options': 'DENY',
+		'X-XSS-Protection': '1; mode=block',
 	},
 };
 
