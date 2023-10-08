@@ -1,4 +1,4 @@
-const random = require('@sefinek/random-animals');
+const random = require('../index.js');
 const { version } = require('../package.json');
 
 test('Random cats', async () => {
