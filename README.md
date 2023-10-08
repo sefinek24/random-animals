@@ -1,3 +1,6 @@
+<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="280px" align="left">
+
+
 <div align="center">
     <h1>😽 » About this package « 🦊</h1>
     <p>This package for npm returns random images of animals (cats, dogs, foxes etc.) from the official <a href="https://api.sefinek.net" target="_blank">API</a>.</p>
@@ -9,7 +12,6 @@
         <img src="https://img.shields.io/github/languages/code-size/sefinek24/random-animals" alt="Code size">
     </a>
     <br><br>
-    <img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="300px">
 </div>
 
 ## 📥 » Installation
