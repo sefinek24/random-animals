@@ -3,7 +3,6 @@ const { name, version } = require('./package.json');
 
 const API_URL = 'https://api.sefinek.net';
 const API_RELEASE = 'v2';
-const CDN_URL = 'https://cdn.sefinek.net';
 const options = {
 	headers: {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals)`,
@@ -20,29 +19,33 @@ const options = {
 };
 
 const makeRequest = url => {
-	return new Promise((resolve, reject) => {
-		const req = https.get(url, options, (res) => {
-			let data = '';
+	try {
+		return new Promise((resolve, reject) => {
+			const req = https.get(url, options, res => {
+				let data = '';
 
-			res.on('data', chunk => {
-				data += chunk;
+				res.on('data', chunk => {
+					data += chunk;
+				});
+
+				res.on('end', () => {
+					if (res.statusCode === 200) {
+						resolve(JSON.parse(data));
+					} else {
+						reject(new Error(`Request failed with status code ${res.statusCode}`));
+					}
+				});
 			});
 
-			res.on('end', () => {
-				if (res.statusCode === 200) {
-					resolve(JSON.parse(data));
-				} else {
-					reject(new Error(`Request failed with status code ${res.statusCode}`));
-				}
+			req.on('error', err => {
+				reject(err);
 			});
-		});
 
-		req.on('error', error => {
-			reject(error);
+			req.end();
 		});
-
-		req.end();
-	});
+	} catch (err) {
+		console.error(err);
+	}
 };
 
 const getData = async endpoint => {
@@ -64,7 +67,7 @@ module.exports = {
 		return jsonData.version;
 	},
 	cdnVersion: async () => {
-		const url = `${CDN_URL}/`;
+		const url = 'https://cdn.sefinek.net/';
 		const jsonData = await makeRequest(url);
 		return jsonData.message;
 	},
