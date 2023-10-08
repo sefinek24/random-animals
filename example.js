@@ -1,4 +1,4 @@
-const random = require('@sefinek/random-animals'); // Replace to @sefinek/random-animals
+const random = require('./index.js'); // Replace to @sefinek/random-animals
 
 (async () => {
 	const data = await random.cat();

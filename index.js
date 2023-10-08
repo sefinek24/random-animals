@@ -1,5 +1,5 @@
 const https = require('node:https');
-const { name, version } = require('./package.json');
+const { name, version, devDependencies } = require('./package.json');
 
 // Define the base URL for the external API
 const API_URL = 'https://api.sefinek.net';
@@ -7,7 +7,7 @@ const API_URL = 'https://api.sefinek.net';
 // Define common HTTP request options
 const options = {
 	headers: {
-		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals)`,
+		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-animals) ${process.env.JEST_WORKER_ID === undefined ? '' : `jest/${devDependencies.jest.replace('^', '')}`}`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
 		'CF-IPCountry': 'false', // Disabling Cloudflare IP Geolocation
