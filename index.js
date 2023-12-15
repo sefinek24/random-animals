@@ -120,7 +120,7 @@ module.exports = {
 	 * @returns {String} - A promise that resolves with the CDN version or rejects with an error.
 	 */
 	cdnVersion: async () => {
-		const url = 'https://cdn.sefinek.net/';
+		const url = 'https://cdn.sefinek.net';
 		const jsonData = await makeRequest(url);
 		return jsonData.message;
 	},
