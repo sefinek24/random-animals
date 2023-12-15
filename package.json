@@ -1,6 +1,6 @@
 {
   "name": "@sefinek/random-animals",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The best npm package that retrieves images of random animals such as cats, foxes, dogs, and more! All powered by a fast API interface!",
   "keywords": [
     "alpaca",
