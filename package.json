@@ -34,17 +34,6 @@
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
   "main": "index.js",
   "types": "./index.d.ts",
-  "directories": {
-    "test": "test"
-  },
-  "files": [
-    "test/",
-    "example.js",
-    "index.d.ts",
-    "index.js",
-    "LICENSE",
-    "README.md"
-  ],
   "scripts": {
     "test": "jest test",
     "up": "ncu -u && npm install && npm update && npm audit fix"
