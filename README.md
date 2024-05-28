@@ -1,4 +1,4 @@
-<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Just a cat" height="220px" align="left">
+<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Just a cat" height="230px" align="left">
 <div align="center">
     <h1>
         » About this package «<br>
