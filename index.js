@@ -1,5 +1,5 @@
 const https = require('https');
-const {version, devDependencies } = require('./package.json');
+const { version, devDependencies } = require('./package.json');
 
 // Define the base URL for the external API
 const API_URL = 'https://api.sefinek.net';
@@ -18,8 +18,8 @@ const options = {
 		'Referrer-Policy': 'strict-origin-when-cross-origin',
 		'X-Content-Type-Options': 'nosniff',
 		'X-Frame-Options': 'DENY',
-		'X-XSS-Protection': '1; mode=block',
-	},
+		'X-XSS-Protection': '1; mode=block'
+	}
 };
 
 /**
@@ -129,5 +129,5 @@ module.exports = {
 	 * Get module version.
 	 * @returns {String} - Returns this package version.
 	 */
-	version,
+	version
 };
