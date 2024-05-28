@@ -1,4 +1,4 @@
-<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Random cat" height="220px" align="left">
+<img src="https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg" alt="Just a cat" height="220px" align="left">
 <div align="center">
     <h1>
         » About this package «<br>
@@ -9,7 +9,6 @@
         <img src="https://img.shields.io/npm/dt/@sefinek/random-animals?maxAge=3600" alt="The number of downloads">
         <img src="https://img.shields.io/github/last-commit/sefinek24/random-animals" alt="Last commit">
         <img src="https://img.shields.io/github/issues/sefinek24/random-animals" alt="Issues">
-        <img src="https://img.shields.io/github/commit-activity/w/sefinek24/random-animals" alt="Commit activity">
         <img src="https://img.shields.io/github/languages/code-size/sefinek24/random-animals" alt="Code size">
     </a>
     <br><br>
