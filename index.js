@@ -8,16 +8,10 @@ const API_URL = 'https://api.sefinek.net';
 const headers = {
 	'User-Agent': `random-animals/${version} (+https://github.com/sefinek24/random-animals) ${process.env.JEST_WORKER_ID ? `jest/${devDependencies.jest.replace('^', '')}` : ''}`,
 	'Accept': 'application/json',
+	'Content-Type': 'application/json',
 	'Cache-Control': 'no-cache',
-	'CF-IPCountry': 'false',
-	'CF-Visitor': '{"scheme":"https"}',
 	'Connection': 'keep-alive',
-	'DNT': '1',
-	'Pragma': 'no-cache',
-	'Referrer-Policy': 'strict-origin-when-cross-origin',
-	'X-Content-Type-Options': 'nosniff',
-	'X-Frame-Options': 'DENY',
-	'X-XSS-Protection': '1; mode=block'
+	'DNT': '1'
 };
 
 /**
