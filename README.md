@@ -9,7 +9,6 @@
         <img src="https://img.shields.io/npm/dt/@sefinek/random-animals?maxAge=3600" alt="The number of downloads">
         <img src="https://img.shields.io/github/last-commit/sefinek24/random-animals" alt="Last commit">
         <img src="https://img.shields.io/github/issues/sefinek24/random-animals" alt="Issues">
-        <img src="https://img.shields.io/github/languages/code-size/sefinek24/random-animals" alt="Code size">
     </a>
     <br><br>
 </div>
